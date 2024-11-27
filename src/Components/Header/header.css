@@ -1,0 +1,14 @@
+.title {
+    color : #143772;
+    top   : 0;
+    height: 4rem;
+
+    width          : auto;
+    margin         : 0 auto;
+    padding-top    : 2rem;
+    position       : fixed;
+    z-index        : 1000;
+    justify-content: center;
+    border-bottom  : 3px solid #143772;
+
+}
