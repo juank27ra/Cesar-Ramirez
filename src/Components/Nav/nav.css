@@ -1,0 +1,8 @@
+.nav-container {
+    display        : flex;
+    gap            : 20px;
+    justify-content: space-between;
+    position       : fixed;
+    top            : 6rem;
+
+}
