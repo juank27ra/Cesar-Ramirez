@@ -16,9 +16,9 @@ const updateDate = format(dateUpdate, "full");
 
 const Dates = () => {
   return (
-    <div>
+    <div className="date-container">
       <p className="titleDate">Hoy es</p>
-      <div>{updateDate}</div>
+      <div className="calendar">{updateDate}</div>
       <span className="calendar-right">Calendario Para renderizar</span>
     </div>
   );

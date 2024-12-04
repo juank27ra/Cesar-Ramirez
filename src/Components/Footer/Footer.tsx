@@ -1,7 +1,12 @@
+import "./footer.css";
+
 const Footer: React.FC<FooterProps> = ({ children }) => {
   return (
     <div className="footer">
-      <footer className="footer-items">{children} aquiva el footer</footer>;
+      <footer className="footer-items">
+        {children} desarrollado y diseñado por Juan Ramirez full-Stack Developer
+        contacto:
+      </footer>
     </div>
   );
 };

@@ -1,0 +1,19 @@
+.container-journalist {
+    display: flex;
+    gap    : 4rem;
+    margin : auto;
+    padding: 2rem 2rem;
+}
+
+h2 {
+    margin: auto;
+}
+
+.fperfil {
+    max-height   : 600px;
+    max-width    : 300px;
+    width        : 150px;
+    height       : 150px;
+    border-radius: 50%;
+    object-fit   : cover;
+}
