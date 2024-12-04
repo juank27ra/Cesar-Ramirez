@@ -1,26 +1,18 @@
-import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
 import "./App.css";
-import { Principal } from "./Components/Principal/Principal";
-import { Footer } from "./Components/Footer/Footer";
+import { Principal } from "./Components/Home/Principal/Principal";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { MyBooks } from "./Components/myBooks/MyBooks";
+import { AboutMe } from "./Components/AboutMe/AboutMe";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <Footer>
-        <Principal />
-        <div>
-          <div className="card">
-            <button onClick={() => setCount((count) => count + 1)}>
-              count is {count}
-            </button>
-          </div>
-        </div>
-      </Footer>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Principal />} />
+        <Route path="/my-books" element={<MyBooks />} />
+        <Route path="/About-me" element={<AboutMe />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

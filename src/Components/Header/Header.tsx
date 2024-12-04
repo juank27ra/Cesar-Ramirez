@@ -2,7 +2,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="">
+    <div className="container-title">
       <title>LA TERCERA OPINIÓN</title>
       <h1 className="title">LA TERCERA OPINIÓN</h1>
     </div>
